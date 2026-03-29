@@ -2,20 +2,6 @@
     "enabled": true,
     "properties": [
         {
-            "propertyName": "PropertyOne",
-            "propertyValue": "PropertyOneValue",
-            "conditions": [
-                {
-                    "eventName": "CurrentPlayer",
-                    "desiredValue": "Evan"
-                },
-                {
-                    "eventName": "OtherThing",
-                    "desiredValue": "Nah"
-                }
-            ]
-        },
-        {
             "propertyName": "GenomePointsMultiplier",
             "propertyValue": "100",
             "conditions": [
