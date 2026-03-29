@@ -3,7 +3,7 @@
     "properties": [
         {
             "propertyName": "GenomePointsMultiplier",
-            "propertyValue": "100",
+            "propertyValue": "1",
             "conditions": [
                 {
                     "eventName": "CurrentPlayer",
