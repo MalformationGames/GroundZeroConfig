@@ -1,4 +1,13 @@
 {
-	"enabled":true,
-	"testvalue":"abc"
+    "enabled": true,
+    "properties": [
+        {
+            "propertyName": "PropertyOne",
+            "propertyValue": "PropertyOneValue"
+        },
+        {
+            "propertyName": "PropertyTwo",
+            "propertyValue": "PropertyTwoValue"
+        }
+    ]
 }
