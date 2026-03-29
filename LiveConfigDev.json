@@ -21,7 +21,7 @@
             "conditions": [
                 {
                     "eventName": "CurrentPlayer",
-                    "desiredValue": "Evan"
+                    "desiredValue": "PlayerTypeEvan"
                 }
             ]
         }
