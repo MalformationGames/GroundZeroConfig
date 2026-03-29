@@ -1,13 +1,29 @@
-{
+ {
     "enabled": true,
     "properties": [
         {
             "propertyName": "PropertyOne",
-            "propertyValue": "PropertyOneValue"
+            "propertyValue": "PropertyOneValue",
+            "conditions": [
+                {
+                    "eventName": "CurrentPlayer",
+                    "desiredValue": "Evan"
+                },
+                {
+                    "eventName": "OtherThing",
+                    "desiredValue": "Nah"
+                }
+            ]
         },
         {
-            "propertyName": "PropertyTwo",
-            "propertyValue": "PropertyTwoValueNew"
+            "propertyName": "GenomePointsMultiplier",
+            "propertyValue": "100",
+            "conditions": [
+                {
+                    "eventName": "CurrentPlayer",
+                    "desiredValue": "Evan"
+                }
+            ]
         }
     ]
 }
